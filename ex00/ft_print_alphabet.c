@@ -6,13 +6,13 @@
 /*   By: bwaegene <brice.wge@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/07/06 13:21:50 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/07/06 15:46:58 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/07/06 16:35:58 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int		ft_putchar(char c);
 
-int		ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
 	int i;
 
@@ -22,5 +22,4 @@ int		ft_print_alphabet(void)
 		ft_putchar(i);
 		i++;
 	}
-	return (0);
 }

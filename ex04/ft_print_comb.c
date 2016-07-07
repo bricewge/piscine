@@ -6,7 +6,7 @@
 /*   By: bwaegene <brice.wge@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/07/06 17:20:04 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/07/07 08:06:35 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/07/07 10:49:16 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	print(int one, int two, int three)
 	ft_putchar(two);
 	ft_putchar(three);
 	if ((one == '7') && (two == '8') && (three == '9'))
-		ft_putchar('.');
+		;
 	else
 	{
 		ft_putchar(',');

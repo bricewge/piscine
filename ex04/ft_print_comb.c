@@ -6,7 +6,7 @@
 /*   By: bwaegene <brice.wge@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/07/06 17:20:04 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/07/07 10:55:22 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/07/07 21:21:08 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,11 @@ void	print(int one, int two, int three)
 
 void	ft_print_comb(void)
 {
-	static int triple[3] = {'0', '1', '2'};
+	int triple[3];
 
+	triple[0] = '0';
+	triple[1] = '1';
+	triple[2] = '2';
 	while (triple[0] <= '7')
 	{
 		while (triple[1] <= '8')
@@ -35,9 +38,7 @@ void	ft_print_comb(void)
 			while (triple[2] <= '9')
 			{
 				if ((triple[2] != triple[1]) && (triple[1] != triple[0]))
-				{
 					print(triple[0], triple[1], triple[2]);
-				}
 				triple[2]++;
 			}
 			triple[2] = (triple[1] + 1);

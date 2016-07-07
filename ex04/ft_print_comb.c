@@ -6,11 +6,11 @@
 /*   By: bwaegene <brice.wge@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/07/06 17:20:04 by bwaegene          #+#    #+#             */
-/*   Updated: 2016/07/07 07:52:36 by bwaegene         ###   ########.fr       */
+/*   Updated: 2016/07/07 08:06:35 by bwaegene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+int		ft_putchar(char c);
 
 void	print(int one, int two, int three)
 {
